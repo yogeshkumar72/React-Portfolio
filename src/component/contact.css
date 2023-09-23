@@ -1,0 +1,155 @@
+#GIT{
+    margin-top:100px;
+     border-radius: 12px;
+     overflow: hidden;
+    /* background:linear-gradient(120deg ,#0553602d 50%, #05085530 100%); */
+    /* background-image: url('../asset/linkedin\ background.jpg'); */
+    background-color: #ebffff14;
+    box-shadow:0px -2px 2px rgba(179, 181, 195, 0.381);
+
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    /* outline: 0.1mm solid aquamarine; */
+}
+
+#GIT form{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    padding:10px;
+    backdrop-filter: blur(3px);
+    
+}
+#GIT form input,textarea{
+    padding:2px 20px;
+    outline:0;
+    border:1px solid rgb(12, 198, 136);
+    background: transparent;
+    width: 80%;
+    height: 40px;
+    margin-top:50px;
+    
+    /* color:rgb(134, 157, 159); */
+    font-weight: 400px;
+    border-radius: 5px;
+}
+#GIT h3{
+    text-align: center;
+    font-size: 25px;
+    padding:20px;
+    /* background-image: url('../asset/wave.svg'); */
+    
+    /* background-color: rgba(0, 255, 255, 0.252); */
+    background-size: cover;
+    /* backdrop-filter: blur(8px); */
+}
+input::placeholder , textarea::placeholder{
+    color:rgb(194, 209, 213);
+}
+textarea{
+    padding:20px;
+    height: 300px;
+    
+    /* backdrop-filter: blur(5px); */
+}
+/* input [type="file"] {
+    border:green;
+    padding:5px;
+    background-color: white;
+    width: 100px;
+    height: 200px;
+} */
+
+#GIT button{
+    margin-top: 50px;
+    margin-bottom:50px;
+    width: 88%;
+    height: 50px;
+    padding:10px 30px;
+    /* background: transparent; */
+    color:rgb(255, 255, 255);
+    /* border:1px solid rgb(127, 255, 242); */
+    border:0;
+    outline:0;
+    border-radius: 5px;
+    /* background-image:url('../asset/HD-wallpaper-palm-leaves-branches-plant-green-dark.jpg') ; */
+    background-color: rgb(0, 206, 192);
+}
+.gml{
+    font-size: 20px;
+    padding:20px;
+    position: relative;
+    left:200px;
+   }
+
+
+
+   
+.success{
+    background-color: rgb(3, 152, 130);
+    color:white;
+    padding:20px;
+    background: url('../asset/scenic-nature-dual-monitor-9sgx1j7lr3gt8du8.jpg');
+    background-size: contain;
+
+    height: 400px;
+    background-position: 60%;
+    background-size: cover;
+}
+.success p{
+    font-size: 23px;
+    color:rgb(55, 232, 10);
+    backdrop-filter: brightness(80%);
+    padding:10px;
+    text-align: left;
+}
+.success a{
+    margin-top: 20px;
+    color:rgb(55, 210, 17);
+    font-weight: bold;
+    backdrop-filter: brightness(50%);
+    /* border:1px solid rgb(9, 171, 117); */
+    border-radius: 10px;
+    overflow: hidden;
+    padding:10px;
+}
+.success img{
+    width: 20px;
+}
+
+
+@media(orientation:portrait){
+    .success{background-color: red;}
+    #GIT{
+        width:110%;
+        background:url(../asset/bg-animation.svg);
+        background-blend-mode:exclusion;
+    }
+    #GIT h3{
+        font-size: 40px;
+        background:url(../asset/linkedin\ background.jpg);
+
+    }
+    #GIT form{
+        width: 100%;
+    }
+    #GIT form input,textarea{
+        width:80%;
+        font-size: 30px;
+        height: 80px;
+        color:rgb(96, 249, 241);
+        /* height: 50px; */
+   }
+
+   #GIT textarea{
+    height: 400px;
+   }
+   #GIT button{
+    font-size:23px;
+   }
+   .gml{
+    margin-left:20px;
+    }
+
+}

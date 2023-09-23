@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&display=swap');
+.addFont{
+    
+    font-family: 'DM Sans', sans-serif;
+    color:rgb(179, 181, 195);
+    color:rgb(151, 168, 184);
+    /* color:rgba(179, 181, 195, 0.381); */
+    /* background-image:url('../asset/bg-animation.svg'); */
+   
+
+   
+    
+}
+#footer{
+    background: url(../asset/linkedin\ background.jpg);
+    background-size:auto;
+    width: 100%;
+    /* color:black; */
+    
+    /* background-repeat: no-repeat; */
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    
+}
+@media(orientation:portrait){
+
+    /* .footFont{
+        padding:20px;
+        color:rgb(0, 255, 247);
+        font-weight: bold;
+        backdrop-filter: blur(4px);
+        border-radius: 20px;
+    } */
+    #footer{
+        width: 110%;
+    }
+}
+*{
+    text-decoration:none;
+
+}
+a{
+    color:rgb(206, 209, 224);
+    font-family: 'DM Sans', sans-serif;
+    color:rgb(221, 223, 242);
+    color:rgb(179, 179, 179);
+}
+.text-light{
+color:rgb(225, 233, 238);
+font-weight: 600;
+
+}
